@@ -236,7 +236,7 @@ section.contents .project ul li img {
 }
 
 section.contents .project ul li .name {
-  background: #1b1b1b;
+  /* background: #1b1b1b; */
   font-size: 22px;
   text-align: right;
   width: 250px;
@@ -289,4 +289,21 @@ section.contents .partner ul li {
 }
 section.contents .partner ul li:hover {
   opacity: 1;
+}
+/* > contact style */
+section.contents .contact{
+    width: 90%;
+    padding: 220px 0;
+    background: url(../img/contact.jpg)no-repeat center / cover fixed;
+}
+section.contents .contact .inner {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 1.4;
+}
+section.contents .contact .inner .tel {
+    font-size: 55px;
+    font-weight: 700;
+    margin: 50px 0;
 }
