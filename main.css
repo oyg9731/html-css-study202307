@@ -5,6 +5,8 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 /* header ctyle */
 .main-header{
     background: #000;
@@ -57,13 +59,34 @@ body{
 .main-header .main-nav .main-nav__item--cta a:hover{
     border: none;
     color: #ff1b68;
-    background: #fff;
+    background: #3775c7;
     margin-bottom: 5px;
+}
+@keyframes drop{
+    0%{
+        opacity: 0;
+        transform: translate(0, -500px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0, 0);
+    }
 }
 
 #product-overview{
     background: orange url('르세라핌.jpg') no-repeat center / cover;
     height: calc(100vh - 97px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#product-overview h2{
+    font-size: 58px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 15px rgba(0,0,0,0.95);
+    animation: drop 2s linear;
 }
 
 /* choose plan style */
